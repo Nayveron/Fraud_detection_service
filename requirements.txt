@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+chromadb
+scikit-learn
+joblib
+pandas

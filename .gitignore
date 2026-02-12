@@ -1,0 +1,20 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Data & Database (CRITICAL)
+fraud_indexed_db/
+*.csv
+*.ipynb
+
+# Machine Learning models
+scaler.pkl
+
+# Environment variables
+.env
+
+# Kaggle кеш (на всяк випадок)
+.kaggle/
