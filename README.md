@@ -22,14 +22,19 @@ A high-performance microservice for real-time transaction monitoring. The system
    ```bash
    docker build -t fraud-api .
 2. Run the container:
+    ```bash
    docker run -p 8000:8000 fraud-api
 3. Access interactive API documentation (Swagger UI) at:
+    ```bash
    http://localhost:8000/docs
 
 ### Manual Setup
 1. Install dependencies:
+   ```bash
    pip install -r requirements.txt
-2. Prepare the database and scaler: 
+2. Prepare the database and scaler:
+   ```bash 
    python ingest_data.py
-3. Start the server: 
+4. Start the server:
+   ```bash 
    uvicorn main:app --reload
